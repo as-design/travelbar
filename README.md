@@ -1,0 +1,4 @@
+travelbar
+=========
+
+Plugin for firefox
