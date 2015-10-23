@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://travelbar/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://travelbar/locale/overlay.dtd">
+<overlay id="travelbar-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script src="travelbar.js"/>
+
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="travelbar-strings" src="chrome://travelbar/locale/overlay.properties"/>
+	</stringbundleset>
+
+	<toolbox id="navigator-toolbox">
+		<toolbar toolbarname="Travelbar" customizable="true" id="travelbar-toolbar" accesskey="e">
+			
+			<toolbaritem>
+				<toolbarbutton type="menu" image="chrome://travelbar/skin/bahn.png" label="bahn" width="150" class="toolbarbutton-1 chromeclass-toolbar-additional custombutton" id="travelbar_travellist" tooltiptext="&travelbar.travelfolder;">
+					<menupopup id="travelbar_travelpopup">
+					</menupopup>
+				</toolbarbutton>
+			</toolbaritem> 
+		
+			<toolbaritem>
+				<popupset>
+					<menupopup id="travelbar_search_start" position="at_pointer">
+						<menuitem label="Bearbeiten" id="travelbar_bearbeiten" disabled="false" oncommand="Travelbar.bearbeiten(event.target.value);"/>
+						<menuitem label="Löschen" id="travelbar_loeschen" oncommand="Travelbar.loeschen(event.target.value);"/>
+					</menupopup>	
+				</popupset>
+			</toolbaritem> 
+
+			<toolbaritem>
+				<label value="&travelbar.from;" class="travelbar_label"/>
+				<textbox onkeyup="Travelbar.sucheEnter(event)" id="travelbar_vonTextbox"/>
+			</toolbaritem> 
+
+			<toolbaritem>
+				<toolbarbutton image="chrome://travelbar/skin/switch.png" oncommand="Travelbar.switchBoth()" id="travelbar_switchButton" tooltiptext="&travelbar.swap;"/>
+			</toolbaritem> 
+
+			<toolbaritem>
+				<label value="&travelbar.to;" class="travelbar_label"/>
+				<textbox onkeyup="Travelbar.sucheEnter(event)" id="travelbar_nachTextbox"/>
+			</toolbaritem> 
+			
+			<toolbaritem>
+				<toolbarbutton type="menu-button" image="chrome://travelbar/skin/add_fav.png" oncommand="Travelbar.addFavourite()" id="travelbar.favourite" tooltiptext="&travelbar.favouriteButton;">
+					<menupopup id="travelbar.favpopup1">
+					</menupopup>
+				</toolbarbutton>
+			</toolbaritem> 
+
+			<toolbaritem>
+				<label value="&travelbar.at;" class="travelbar_label"/>
+				<timepicker hideseconds="true" id="travelbar_timepicker"/>
+			</toolbaritem> 
+
+			<toolbaritem>
+				<label value="&travelbar.on;" class="travelbar_label"/>
+				<datepicker type="normal" id="travelbar_datepicker"/>
+			</toolbaritem> 
+
+			<toolbaritem>
+				<toolbarbutton oncommand="Travelbar.sucheStart()" id="travelbar_suchButton" tooltiptext="&travelbar.startsearch;">
+					<label value="&travelbar.search;"/>
+				</toolbarbutton>
+			</toolbaritem> 
+
+		</toolbar>
+	</toolbox>
+	
+	<!-- Tool Bar buttons on browser palette-->
+	<toolbarpalette id="BrowserToolbarPalette">
+	    <toolbarbutton id="travelbar-toolbar-button" 
+	      label="Travelbar" 
+	      type="menu-button"
+	      tooltiptext="&travelbar.travelButton;" 
+	      oncommand="Travelbar.toogleBar()" 
+	      image="chrome://travelbar/skin/bus.png">
+	      		<menupopup id="travelbar.favpopup2">
+				</menupopup>
+		</toolbarbutton>
+	</toolbarpalette> 
+	
+</overlay>

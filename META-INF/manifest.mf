@@ -1,0 +1,122 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6wy7IVLgyBN+hTtU3fcn/w==
+SHA1-Digest: XkoWXkbKK9Y2RRi5dtyrI7Cnd3A=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RFInjxab57DxFgl4rQGBMg==
+SHA1-Digest: UVNkKzjlRdIJlvpIh7h7vVOSbzs=
+
+Name: chrome/content/about.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: r++ByZTyBCd2W47TomDjlg==
+SHA1-Digest: /pPAjYP69U8RrcRqo/SyMyZqeEE=
+
+Name: chrome/content/edit-window.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Fb6wcwD0Kxb95Bf3zXMRUA==
+SHA1-Digest: HAJe5Dr8v+VZRBgPR1YB5+l7FVQ=
+
+Name: chrome/content/edit.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kELV6L62QxJ1QqHPdqWD9Q==
+SHA1-Digest: 96a5jkS68Tn4wccWcuRLC0zG7Vo=
+
+Name: chrome/content/ff-overlay.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zKYIgCKSJMH+k3dNAbBt9Q==
+SHA1-Digest: egMeUxA60E7VLYtN9uMBiwvbbjE=
+
+Name: chrome/content/travelbar.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DHwAuj4EXSbbREaeunbznw==
+SHA1-Digest: X785X4pZwsZ1SNlu1N+IDus/2Uw=
+
+Name: chrome/locale/de-DE/about.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EFCbE+2XkapHT88juI9qvw==
+SHA1-Digest: KtZ5LX/aghtqH8RtbhWwCKNtqVo=
+
+Name: chrome/locale/de-DE/overlay.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1OApdfhibCoL187asvaVYw==
+SHA1-Digest: zxjffEypqFrDUZHqleN0HkQPcgs=
+
+Name: chrome/locale/de-DE/overlay.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FviJmYOl27bKvoiDa6PQsw==
+SHA1-Digest: iH0uCCZNQ+mkuGXJnVKL42n01rQ=
+
+Name: chrome/locale/en-US/about.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gybfDvRxKjQGPn2bKC+Ppw==
+SHA1-Digest: zCl3hFXaGpULEfQ4G1c/0CwQOHA=
+
+Name: chrome/locale/en-US/overlay.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: lO1Nhy55alzlbxet1cQNow==
+SHA1-Digest: 0gRxtRgvlgLxtDqau72zFflaGZs=
+
+Name: chrome/locale/en-US/overlay.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nbjUc7fmd2xm+6HXhjRaYw==
+SHA1-Digest: xOMuWEnhGMOcUcXoMrMaml88ii0=
+
+Name: chrome/skin/add_fav.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: TRApKiYa/BkIpjgVHkttiw==
+SHA1-Digest: 7/DhyxBE59Ol3EF9coMpQvEt/nk=
+
+Name: chrome/skin/bahn.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: h1TjqUOPnunyFHnnTcmdHw==
+SHA1-Digest: ureG6t1BYGe5fAG+UShJ3Ze+Udk=
+
+Name: chrome/skin/bsag.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: dktfo+3IXwE0iidyt0s7ng==
+SHA1-Digest: OU1PREnoWyhD7DnK5gegsMxJUF4=
+
+Name: chrome/skin/bus.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jX8ADGVv7Rdvm6XycTGcvw==
+SHA1-Digest: AYXkqFDz1cogLxp9JTE33t/OrfQ=
+
+Name: chrome/skin/fav_folder.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rQtcwOiLhVnAaZolqdoSAg==
+SHA1-Digest: qZ0hpx6LPpbAyTEkWrkwyu43vQo=
+
+Name: chrome/skin/maps.google.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: w/bdsyhXwguCK7eBvskMCw==
+SHA1-Digest: h6a0TE/g2RlL4ky47EfHcUHtXCs=
+
+Name: chrome/skin/mitfahrgelegenheit.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /5UjrUqfw3216SWpa76Ysw==
+SHA1-Digest: lkkGUeM94vd4AdTrqJo1cFjj+cQ=
+
+Name: chrome/skin/overlay.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: aOKwIenwVFIg50Hzbdkj4w==
+SHA1-Digest: yEW2HcIDjx9xdkuTaB1snOIYiSc=
+
+Name: chrome/skin/switch.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1vwQhMf6rCMVb5JuBMtiag==
+SHA1-Digest: vWJ+0OKNWzF0sXrvkWnD2stxz54=
+
+Name: chrome/skin/vbn.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YMpp2USLv304dwWg4EyDFA==
+SHA1-Digest: VOj3RQ86/+PAV5HIpH8IV5coEp0=
+
+Name: components/basic_autocomplete.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eRQTUZ8tFB/ByCcfOynEwg==
+SHA1-Digest: 76IyZvB81+m4VwSUeZZ46Y9axCE=
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://travelbar/locale/about.dtd">
+
+<dialog title="&about; Travelbar" orient="vertical" autostretch="always" onload="sizeToContent()" buttons="accept" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <groupbox align="center" orient="horizontal">
+    <vbox>
+      <text value="Travelbar" style="font-weight: bold; font-size: x-large;"/>
+      <text value="&version; 1.0"/>
+      <separator class="thin"/>
+      <text value="&createdBy;" style="font-weight: bold;"/>
+      <text value="Andreas Schröder"/>
+      <text value="&license;" style="font-weight: bold;"/>
+      <textbox width="300" height="200" multiline="true" readonly="true" value="Dieses Werk ist unter einem Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Germany Lizenzvertrag lizenziert. Um die Lizenz anzusehen, gehen Sie bitte zu http://creativecommons.org/licenses/by-nc-nd/3.0/de/ oder schicken Sie einen Brief an Creative Commons, 171 Second Street, Suite 300, San Francisco, California 94105, USA."/>
+      <separator class="thin"/>
+    </vbox>
+  </groupbox>
+</dialog>

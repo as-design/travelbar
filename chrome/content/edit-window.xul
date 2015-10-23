@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://travelbar/locale/overlay.dtd">
+
+<window id="travelbar_edit_edit-window" title="" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">	
+	<script type="application/x-javascript" src="chrome://travelbar/content/edit.js"/>
+	
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="travelbar-strings" src="chrome://travelbar/locale/overlay.properties"/>
+	</stringbundleset>
+	
+	<label value="&travelbar.name;" width="500"/>
+	<textbox id="travelbar_edit_nameFavorit"/>
+	<label value="&travelbar.from;"/>
+	<textbox id="travelbar_edit_vonFavorit"/>
+	<label value="&travelbar.to;"/>
+	<textbox id="travelbar_edit_nachFavorit"/>
+	
+	<label value="Plattform:"/>
+	<menulist label="bsag.de" id="travelbar_edit_travellist">
+		<menupopup id="travelbar_edit_travelpopup">
+			<menuitem label="bahn" value="bahn"/>
+			<menuitem label="bsag" value="bsag"/>
+			<menuitem label="maps.google" value="maps.google"/>
+			<menuitem label="mitfahrgelegenheit" value="mitfahrgelegenheit"/>
+			<menuitem label="vbn" value="vbn"/>
+		</menupopup>
+	</menulist>
+	
+	<checkbox label="&travelbar.directsearch;" id="travelbar_edit_directsearch" checked="false"/>
+	<hbox align="left">
+		<checkbox label="&travelbar.settime;" id="travelbar_edit_directtime" checked="false"/>
+		<timepicker hideseconds="true" id="travelbar_edit_timepicker"/>
+	</hbox>
+	
+	<hbox align="right">
+		<button label="&travelbar.save;" id="travelbar_edit_speichernButton" onclick="Travelbar.Edit.updateFavorit();"/>
+		<button label="&travelbar.cancel;" id="travelbar_edit_abbrechenButton" onclick="window.close();"/>
+	</hbox>
+</window>

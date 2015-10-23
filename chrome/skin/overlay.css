@@ -1,0 +1,40 @@
+.travelbar_label
+{
+	padding-top: 6px;
+}
+#travelbar_vonTextbox
+{
+	height: 25px; 
+	width: 150px;
+}
+#travelbar_nachTextbox
+{
+	height: 25px; 
+	width: 150px;
+}
+#travelbar_timepicker
+{
+	height: 25px;
+}
+#bsag {
+	-moz-appearance: none;
+}
+
+#travelbar_travellist label {
+   padding-left: 3px;
+   display: inline !important;
+}
+
+#travelbar_travellist {
+  -moz-box-orient: horizontal !important;
+}
+
+#travelbar_travellist .toolbarbutton-menubutton-button { -moz-box-orient: horizontal; }
+
+#travelbar_travellist .toolbarbutton-icon {
+  margin-right: 5px !important;
+}
+
+.toolbarbutton-text {
+	text-align: left;
+}

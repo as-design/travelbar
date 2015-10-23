@@ -1,0 +1,16 @@
+<!ENTITY travelbar.favouriteButton  "Add/load a Favourite">
+<!ENTITY travelbar.travelButton  "Show Travelbar / Load Favourite">
+<!ENTITY travelbar.travelfolder  "Platforms">
+<!ENTITY travelbar.from  "from:">
+<!ENTITY travelbar.to  "to:">
+<!ENTITY travelbar.at  "at:">
+<!ENTITY travelbar.on  "on:">
+<!ENTITY travelbar.swap  "swap from und to">
+<!ENTITY travelbar.search  "Search">
+<!ENTITY travelbar.startsearch  "Begin to search">
+<!ENTITY travelbar.save  "Save">
+<!ENTITY travelbar.cancel  "Cancel">
+<!ENTITY travelbar.name  "Name:">
+<!ENTITY travelbar.directsearch  "Search directly">
+<!ENTITY travelbar.settime  "Set specific time:">
+
