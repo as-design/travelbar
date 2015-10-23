@@ -2,3 +2,4 @@ travelbar
 =========
 
 Plugin for firefox
+
