@@ -3,7 +3,7 @@
 <!DOCTYPE overlay SYSTEM "chrome://travelbar/locale/overlay.dtd">
 
 <window id="travelbar_edit_edit-window" title="" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">	
-	<script type="application/x-javascript" src="chrome://travelbar/content/edit.js"/>
+	<script type="application/javascript" src="chrome://travelbar/content/edit.js"/>
 	
 	<stringbundleset id="stringbundleset">
 		<stringbundle id="travelbar-strings" src="chrome://travelbar/locale/overlay.properties"/>

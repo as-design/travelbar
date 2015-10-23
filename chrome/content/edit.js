@@ -5,6 +5,9 @@
  * @date	07.06.2012
  */
 
+if (typeof Travelbar == "undefined") {
+	Travelbar = {};
+}
 if (typeof Travelbar.Edit == "undefined") {
 	Travelbar.Edit = {
 		/**
@@ -83,14 +86,14 @@ if (typeof Travelbar.Edit == "undefined") {
 		 */
 		loadNew: function()
 		{
-			var stringbundle = document.getElementById("travelbar_edit_travelbar-strings");
+			var stringbundle = document.getElementById("travelbar-strings");
 			var title =stringbundle.getString("travelbar.newfavourite");
 			document.getElementById("travelbar_edit_edit-window").setAttribute("title", title);
-			document.getElementById("travelbar_edit_nameFavorit").value=window.opener.document.getElementById("travelbar_edit_vonTextbox").value+" - "+window.opener.document.getElementById("travelbar_edit_nachTextbox").value;	
-			document.getElementById("travelbar_edit_vonFavorit").value=window.opener.document.getElementById("travelbar_edit_vonTextbox").value;	
-			document.getElementById("travelbar_edit_nachFavorit").value=window.opener.document.getElementById("travelbar_edit_nachTextbox").value;
+			document.getElementById("travelbar_edit_nameFavorit").value=window.opener.document.getElementById("travelbar_vonTextbox").value+" - "+window.opener.document.getElementById("travelbar_nachTextbox").value;	
+			document.getElementById("travelbar_edit_vonFavorit").value=window.opener.document.getElementById("travelbar_vonTextbox").value;	
+			document.getElementById("travelbar_edit_nachFavorit").value=window.opener.document.getElementById("travelbar_nachTextbox").value;
 			this.setPlatform(window.opener.Travelbar.getPlatform());
-			document.getElementById("travelbar_edit_timepicker").value=window.opener.document.getElementById("travelbar_edit_timepicker").value;
+			document.getElementById("travelbar_edit_timepicker").value=window.opener.document.getElementById("travelbar_timepicker").value;
 		},
 		
 		/**
