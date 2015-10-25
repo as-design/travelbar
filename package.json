@@ -1,0 +1,15 @@
+{
+  "title": "travelbar",
+  "name": "travelbar",
+  "version": "1.0.2",
+  "description": "A basic add-on",
+  "main": "index.js",
+  "author": "Andreas Schröder",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "bahn.de"
+  ]
+}
